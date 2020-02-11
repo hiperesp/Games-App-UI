@@ -1,0 +1,261 @@
+.na-root {
+    display: flex;
+    flex-direction: column;
+    /*border-radius: 24px;*/
+    background-color: white;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.na-root header {
+    padding: 24px;
+    display: flex;
+}
+.na-root .app-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #04004a;
+    height: 24px;
+}
+.na-root .back-icon, .na-root .menu-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    width: 24px;
+    height: 24px;
+}
+.na-root .searchbar {
+    display: flex;
+    flex: 1;
+    margin-left: 24px;
+    height: 24px;
+}
+.na-root .search-icon {
+    border-radius: 12px 0 0 12px;
+    background-color: #f0f0f0;
+    width: 48px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.na-root .searchbar input[type=search] {
+    border-radius: 0 12px 12px 0;
+    border: 0;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 100%;
+    font-family: inherit;
+}
+.na-root .searchbar input[type=search]::placeholder {
+    color: #c0c0c0;
+}
+
+.na-root main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+}
+.na-root section.safe, .na-root .game-view section.safe {
+    padding: 0 24px;
+}
+.na-root .game-view section {
+    padding: 0 0 0 24px;
+}
+.na-root .banner, .na-root .game-view .banner {
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+}
+.na-root .game-view .banner {
+    border-radius: 12px 0 0 12px;
+}
+.na-root .banner img {
+    width: 100%;
+    height: 144px;
+    object-fit: cover;
+    flex: 1;
+}
+.na-root .game-view .banner img {
+    height: 192px;
+}
+.na-root .section-header {
+    display: flex;
+    padding: 20px 0 8px 0;
+}
+.na-root .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #04004a;
+}
+.na-root .game-list {
+    list-style-type: none;
+}
+.na-root .game-list-item {
+    display: flex;
+    padding: 12px 0;
+}
+.na-root .game-image {
+    width: 92px;
+    height: 116px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.na-root .game-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.na-root .game-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 12px 0 12px 12px;
+}
+.na-root .game-view .game-details {
+    padding: 24px 0;
+}
+.na-root .game-header {
+    display: flex;
+}
+.na-root .game-title {
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
+    color: #04004a;
+}
+.na-root .game-options {
+    margin-top: -6px;
+    width: 28px;
+    height: 28px;
+}
+.na-root .game-share-icon, .na-root .game-download-icon {
+    width: 28px;
+    height: 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.na-root .game-download-icon {
+    background-color: #3f9bf8;
+    padding: 2px;
+    border-radius: 4px;
+}
+.na-root .game-description {
+    flex: 1;
+    padding: 4px 0;
+    color: #808080;
+    font-size: 12px;
+}
+.na-root .game-tags {
+    padding: 4px 0;
+    font-size: 12px;
+}
+.na-root .tag {
+    padding: 2px 4px;
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #429bf8;
+}
+.na-root .game-rate {
+    display: flex;
+    padding: 4px 0;
+}
+.na-root .rate-icon {
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 18px;
+}
+.na-root .rate-value {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.na-root .game-full-description {
+    color: #808080;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+.na-root footer {
+}
+.na-root footer .menu {
+    padding: 0 24px;
+    list-style-type: none;
+    display: flex;
+}
+.na-root footer .menu.menu-full {
+    background-color: #0069d4;
+    padding: 0;
+    color: #ffffff;
+}
+.na-root footer .menu-item {
+    flex: 1;
+    height: 64px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 18px;
+}
+.na-root footer .menu-item.menu-item-text {
+    display: flex;
+    justify-content: center;
+}
+.na-root footer .menu-item.menu-item-text .menu-item-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.na-root .icon-back {
+    background-image: url('../icons/back.svg');
+}
+.na-root .icon-menu {
+    background-image: url('../icons/menu.svg');
+}
+.na-root .icon-search {
+    background-image: url('../icons/search.svg');
+}
+
+
+.na-root .icon-share {
+    background-image: url('../icons/share.svg');
+}
+.na-root .icon-download {
+    background-image: url('../icons/download.svg');
+}
+.na-root .icon-heart {
+    background-image: url('../icons/favorite.svg');
+}
+
+.na-root .icon-home {
+    background-image: url('../icons/home.svg');
+}
+.na-root .icon-home-i {
+    background-image: url('../icons/home-i.svg');
+}
+.na-root .icon-location {
+    background-image: url('../icons/location.svg');
+}
+.na-root .icon-location-i {
+    background-image: url('../icons/location-i.svg');
+}
+.na-root .icon-bookmark {
+    background-image: url('../icons/bookmark.svg');
+}
+.na-root .icon-bookmark-i {
+    background-image: url('../icons/bookmark-i.svg');
+}
+.na-root .icon-settings {
+    background-image: url('../icons/settings.svg');
+}
+.na-root .icon-settings-i {
+    background-image: url('../icons/settings-i.svg');
+}
+
+.na-root .flex-space {
+    flex: 1;
+}
